@@ -1,0 +1,24 @@
+.syl-achievment {
+  &__count-achievment {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: $syl-blue-dark;
+    font-size: 26px;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background-color: $syl-yellow-default;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+  }
+  &__card-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: $syl-blue-dark;
+  }
+}

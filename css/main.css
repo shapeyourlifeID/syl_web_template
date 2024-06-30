@@ -140,8 +140,37 @@ body {
   height: inherit;
 }
 
+.syl-achievment__count-achievment {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: #3c4d8e;
+  font-size: 26px;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #f7eeb8;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.syl-achievment__card-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3c4d8e;
+}
+
 .syl-scholarships-and-exchanges {
   padding: 50px 0;
+}
+
+.syl-team__role {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3c4d8e;
 }
 
 /*# sourceMappingURL=main.css.map */
