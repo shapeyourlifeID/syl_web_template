@@ -1,251 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Shape Your Life - Home</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header class="syl-header">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shape Your Life - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="syl-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo.png" alt="Shape Your Life" height="50" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Programs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Scholarships & Funding
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./scholarships-and-funding.html">All Fundings</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Publications</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- ./End -->
+
+  <!-- Hero Section -->
+  <section id="syl-hero" class="syl-hero text-white overflow-hidden">
+    <div class="container">
+      <div class="d-flex flex-wrap gap-5 align-items-center justify-content-between">
+        <div class="syl-hero__left">
+          <img src="./images/hero/home.png" class="img-fluid w-100 syl-hero__image" alt="team" />
+        </div>
+        <div class="syl-hero__right text-center text-lg-start mb-4 mb-lg-0">
+          <h1 class="syl-hero__title">Achieve your true potential</h1>
+          <p class="syl-hero__description">
+            A youth-led organization focuses on empowering marginalized
+            students in Indonesia to achieve SDG: 4.7 Global Citizenship
+            Education. Helping Indonesian students reach their maximum
+            potential and pursue higher education abroad.
+          </p>
+          <button class="btn btn-yellow px-3 py-2 text-dark-blue fw-bold">
+            Find Out More
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ./End -->
+
+  <!-- Get In Touch Section -->
+  <section id="get-in-touch" class="get-in-touch">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 py-5 mt-4">
+          <div class="row mb-4">
+            <div class="col">
+              <h1 class="text-dark-blue fw-semibold mb-3">Get In Touch</h1>
+              <p class="lh-lg">
+                Let’s help Indonesian students reach their maximum potential
+                and pursue higher education abroad!
+              </p>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-12 col-lg-6">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <img src="./images/location/indonesia.png" class="img-fluid" alt="indonesia" />
+                  <h3 class="card-title fw-semibold text-dark-blue mt-3">
+                    Instagram
+                  </h3>
+                  <p class="card-text">shapeyourlife.id</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <img src="./images/location/asia.png" class="img-fluid" alt="indonesia" />
+                  <h3 class="card-title fw-semibold text-dark-blue mt-3">
+                    TikTok
+                  </h3>
+                  <p class="card-text">shapeyourlife.id</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <img src="./images/location/america.png" class="img-fluid" alt="indonesia" />
+                  <h3 class="card-title fw-semibold text-dark-blue mt-3">
+                    LinkedIn
+                  </h3>
+                  <p class="card-text">Shape Your Life ID</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <img src="./images/location/africa.png" class="img-fluid" alt="indonesia" />
+                  <h3 class="card-title fw-semibold text-dark-blue mt-3">
+                    E-mail
+                  </h3>
+                  <p class="card-text">shapeyourlifeid@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 ps-5">
+          <img src="./images/get-in-touch.png" class="img-fluid" alt="get in touch" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ./End -->
+
+  <!-- Footer Links Section -->
+  <footer id="syl-footer" class="syl-footer">
+    <div
+      class="container d-flex flex-wrap flex-lg-nowrap gap-row-3 gap-5 justify-content-between align-items-center py-5">
+      <img src="/images/footer.png" alt="" class="">
+      <div class="d-flex flex-wrap gap-5">
+        <div class="">
+          <h6>Scholarships</h6>
+          <a href="">Indonesian</a>
+          <a href="">Abroad</a>
+          <a href="">Exchange Programs</a>
+        </div>
+        <div class="">
+          <h6>About us</h6>
+          <a href="">Vision and Mission</a>
+          <a href="">Our Team</a>
+          <a href="">Our Impact</a>
+        </div>
+        <div class="">
+          <h6>Quick Links</h6>
+          <a href="">What We Do</a>
+          <a href="">News & Blog</a>
+          <a href="">Language Proficiency</a>
+        </div>
+      </div>
+    </div>
+    <div class="syl-footer__copyright">
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-              <img src="./images/logo.png" alt="Shape Your Life" height="50" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Programs
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Scholarships & Funding
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="./scholarships-and-funding.html"
-                        >All Fundings</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Publications</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    More
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        &copy; 2024 by Shape Your Life <br>
+        Powered by Ritsumeikan Asia Pacific University under <a href="#">Project B*</a>
       </div>
-    </header>
-    <!-- ./End -->
+    </div>
+  </footer>
+  <!-- ./End -->
 
-    <!-- Hero Section -->
-    <section id="syl-hero" class="syl-hero text-white overflow-hidden">
-      <div class="container">
-        <div
-          class="d-flex flex-wrap gap-5 align-items-center justify-content-between"
-        >
-          <div class="syl-hero__left">
-            <img
-              src="./images/hero/home.png"
-              class="img-fluid w-100 syl-hero__image"
-              alt="team"
-            />
-          </div>
-          <div class="syl-hero__right text-center text-lg-start mb-4 mb-lg-0">
-            <h1 class="syl-hero__title">Achieve your true potential</h1>
-            <p class="syl-hero__description">
-              A youth-led organization focuses on empowering marginalized
-              students in Indonesia to achieve SDG: 4.7 Global Citizenship
-              Education. Helping Indonesian students reach their maximum
-              potential and pursue higher education abroad.
-            </p>
-            <button class="btn btn-yellow px-3 py-2 text-dark-blue fw-bold">
-              Find Out More
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ./End -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
 
-    <!-- Get In Touch Section -->
-    <section id="get-in-touch" class="get-in-touch">
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-12 col-lg-6 py-5 mt-4">
-            <div class="row mb-4">
-              <div class="col">
-                <h1 class="text-dark-blue fw-semibold mb-3">Get In Touch</h1>
-                <p class="lh-lg">
-                  Let’s help Indonesian students reach their maximum potential
-                  and pursue higher education abroad!
-                </p>
-              </div>
-            </div>
-            <div class="row g-4">
-              <div class="col-12 col-lg-6">
-                <div class="card border-0 shadow">
-                  <div class="card-body">
-                    <img
-                      src="./images/location/indonesia.png"
-                      class="img-fluid"
-                      alt="indonesia"
-                    />
-                    <h3 class="card-title fw-semibold text-dark-blue mt-3">
-                      Instagram
-                    </h3>
-                    <p class="card-text">shapeyourlife.id</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-6">
-                <div class="card border-0 shadow">
-                  <div class="card-body">
-                    <img
-                      src="./images/location/asia.png"
-                      class="img-fluid"
-                      alt="indonesia"
-                    />
-                    <h3 class="card-title fw-semibold text-dark-blue mt-3">
-                      TikTok
-                    </h3>
-                    <p class="card-text">shapeyourlife.id</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-6">
-                <div class="card border-0 shadow">
-                  <div class="card-body">
-                    <img
-                      src="./images/location/america.png"
-                      class="img-fluid"
-                      alt="indonesia"
-                    />
-                    <h3 class="card-title fw-semibold text-dark-blue mt-3">
-                      LinkedIn
-                    </h3>
-                    <p class="card-text">Shape Your Life ID</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-6">
-                <div class="card border-0 shadow">
-                  <div class="card-body">
-                    <img
-                      src="./images/location/africa.png"
-                      class="img-fluid"
-                      alt="indonesia"
-                    />
-                    <h3 class="card-title fw-semibold text-dark-blue mt-3">
-                      E-mail
-                    </h3>
-                    <p class="card-text">shapeyourlifeid@gmail.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6 ps-5">
-            <img
-              src="./images/get-in-touch.png"
-              class="img-fluid"
-              alt="get in touch"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ./End -->
-
-    <!-- Footer Links Section -->
-    <footer id="syl-footer" class="syl-footer">
-      <div class="syl-footer__links">
-        <div class="container">
-          <h1>Footer</h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere
-          quis pariatur. Autem nostrum corporis vero distinctio nulla enim culpa
-          facere quidem praesentium? Itaque qui hic, ex at maiores quasi tenetur
-          numquam, nihil dolor distinctio officia molestias placeat dicta
-          temporibus doloribus praesentium et expedita laboriosam iure.
-          Voluptatibus autem optio quia!
-        </div>
-      </div>
-      <div class="syl-footer__copyright">
-        <div class="container">&copy; 2024 by Shape Your Life</div>
-      </div>
-    </footer>
-    <!-- ./End -->
-
-    <script src="./js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>

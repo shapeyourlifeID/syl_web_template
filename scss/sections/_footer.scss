@@ -1,5 +1,44 @@
+
 .syl-footer {
-  padding: 55px 0 0;
   background-image: linear-gradient(to right, #324178, #3d4e90);
   color: white;
+}
+
+.syl-footer h6 {
+  margin-bottom: 20px;
+}
+
+.syl-footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+.syl-footer img {
+  width: 40vw;
+  max-width: max-content;
+  min-width: 150px;
+}
+
+.syl-footer__copyright {
+  background-color: #2b3868;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.syl-footer__copyright a {
+  display: inline;
+  font-size: inherit;
+  text-decoration: underline !important;
+}
+
+@media (max-width: 576px) {
+  .syl-footer a {
+    font-size: 14px;
+  }
+
+  .syl-footer__copyright {
+    font-size: 12px;
+  }
 }
