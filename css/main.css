@@ -642,6 +642,25 @@ body {
   height: 80px;
 }
 
+.text-secondary-blue {
+  color: #253058;
+  font-weight: 500;
+}
+
+.text-clamp-impact {
+  width: 583px;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+@media (width < 576px) {
+  .text-clamp-impact {
+    width: 300px;
+  }
+}
+
 .syl-hero-event {
   padding: 55px 0 0;
   background-image: linear-gradient(to right, #324178, #3d4e90);

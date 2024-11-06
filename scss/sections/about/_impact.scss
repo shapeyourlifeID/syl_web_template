@@ -1,0 +1,17 @@
+.text-secondary-blue {
+    color: #253058;
+    font-weight: 500;
+}
+
+.text-clamp-impact {
+    width: 583px;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+    @media (width < 576px) { 
+        width: 300px;
+    }
+}
