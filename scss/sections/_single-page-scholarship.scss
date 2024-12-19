@@ -1,0 +1,38 @@
+main {
+  color: $syl-blue-dark;
+}
+
+.researcher {
+  font-size: 14px;
+}
+
+.keywords button {
+  background-color: $syl-yellow-default;
+  border: none;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #F7EEB8;
+}
+
+td {
+  background-color: #f2f2f2;
+}
