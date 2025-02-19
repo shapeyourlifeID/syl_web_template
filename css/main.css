@@ -5,6 +5,16 @@ body {
   background-color: #e0edf5;
 }
 
+.thumbnail-single-page {
+  height: 300px;
+}
+
+@media (min-width: 1200px) {
+  .container-single-page {
+    max-width: 800px;
+    margin: auto;
+  }
+}
 .syl-header {
   padding: 40px 0 0;
   position: relative;

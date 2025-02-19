@@ -6,6 +6,17 @@ body {
   background-color: $syl-blue-light;
 }
 
+.thumbnail-single-page {
+  height: 300px;
+}
+
+@media (min-width: 1200px) {
+  .container-single-page {
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
 // .slick-list {
 //   height: auto !important;
 // }
